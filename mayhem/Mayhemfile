@@ -1,0 +1,6 @@
+project: tinyosc
+target: tinyosc-fuzz
+
+cmds:
+    - cmd: ./tinyosc-fuzz
+      libfuzzer: true
